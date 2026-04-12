@@ -36,7 +36,6 @@ This project analyzes retail sales data using SQL to extract business insights r
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
 ```
 sql-data-analysis/
 ├── data/
