@@ -1,4 +1,4 @@
-# 🛒 Superstore Sales SQL Analysis
+# 🛒 Superstore Sales SQL Analysis (PostgreSQL)
 
 ## 📌 Project Overview
 This project analyzes retail sales data using SQL to extract business insights related to sales, profitability, and discount impact.
