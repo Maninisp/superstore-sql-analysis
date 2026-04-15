@@ -69,17 +69,38 @@ The 10% discount is the sweet spot — it increases average profit above the no-
  
 Consumer generates the most total profit by volume but Home Office is the most margin-efficient segment. High order frequency does not equal high profitability — some top-revenue customers are low profit due to discount-heavy transactions.
 
----
-
-## 6. Shipping Mode Analysis
-- **Standard Class** contributes the highest total profit due to volume.
-- **First Class** has the highest profit margin (~13.9%), indicating better efficiency.
-
-### Key Insight:
-- Initial assumption: Shipping cost impacts profitability  
-- After controlled analysis:
-  - Profitability is influenced more by **discount and product mix** than shipping mode.
-
+## Finding 6: Ship Mode Is a Proxy for Product Mix, Not an Independent Driver
+ 
+**Surface observation:** First Class shows 13.93% margin vs Standard Class at 12.08%.
+ 
+**Step 1 — Is discount the cause?**
+ 
+| Ship Mode | Avg Discount | Profit Margin |
+|-----------|-------------|---------------|
+| First Class | 0.165 | 13.93% |
+| Standard Class | 0.160 | 12.08% |
+| Same Day | 0.152 | 12.38% |
+| Second Class | 0.139 | 12.51% |
+ 
+Average discounts are nearly identical (0.139–0.165). Discount does not explain the gap.
+ 
+**Step 2 — Is product mix the cause?**
+ 
+Furniture delivers ~2–3% margin regardless of ship mode. Technology delivers 14–20% regardless of ship mode. Standard Class handles 1,248 Furniture orders vs only 327 for First Class — 4x more low-margin orders by volume.
+ 
+**Step 3 — Controlled test (Technology, 0% discount only):**
+ 
+| Ship Mode | Profit Margin |
+|-----------|---------------|
+| First Class | 36.66% |
+| Same Day | 35.61% |
+| Standard Class | 34.08% |
+| Second Class | 30.34% |
+ 
+When category and discount are fixed, margins converge across all ship modes. The original gap disappears.
+ 
+**Conclusion:** Ship mode has no independent effect on profitability. It is a proxy for product mix. Pushing customers to First Class shipping would not improve margins — fixing Furniture pricing would.
+ 
 ---
 
 ## Finding 7: Strong Seasonality — Business Is Q4-Dependent
